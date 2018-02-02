@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\Tony.Data.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\Tony.Data.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\MySql.Data.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\obj\Debug\Tony.Data.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\obj\Debug\Tony.Data.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\obj\Debug\Tony.Data.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Data\obj\Debug\Tony.Data.pdb

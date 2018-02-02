@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tony.Application.CacheHelper</RootNamespace>
+    <AssemblyName>Tony.Application.CacheHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataItemCache.cs" />
+    <Compile Include="DepartmentCache.cs" />
+    <Compile Include="JobCache.cs" />
+    <Compile Include="OrganizeCache.cs" />
+    <Compile Include="PostCache.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleCache.cs" />
+    <Compile Include="UserCache.cs" />
+    <Compile Include="UserGroupCache.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tony.Application.Business\Tony.Application.Business.csproj">
+      <Project>{B92895BB-7011-4122-80EB-1919DD3CA58A}</Project>
+      <Name>Tony.Application.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Application.Entity\Tony.Application.Entity.csproj">
+      <Project>{D4A77116-CC67-4A91-9E42-7A4D3030905A}</Project>
+      <Name>Tony.Application.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Application.IService\Tony.Application.IService.csproj">
+      <Project>{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}</Project>
+      <Name>Tony.Application.IService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Application.Service\Tony.Application.Service.csproj">
+      <Project>{52AB7CA7-629D-4CC4-B587-34021264EA00}</Project>
+      <Name>Tony.Application.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.CacheHelper\Tony.CacheHelper.csproj">
+      <Project>{9A50E8E4-123B-41B1-A8CA-F58564B91A52}</Project>
+      <Name>Tony.CacheHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Data.Repository\Tony.Data.Repository.csproj">
+      <Project>{5049BD6B-683A-4641-817C-BCD553AB6255}</Project>
+      <Name>Tony.Data.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Util.WebControl\Tony.Util.WebControl.csproj">
+      <Project>{C7DB1550-067C-4CCF-A7DC-710414D0F11A}</Project>
+      <Name>Tony.Util.WebControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

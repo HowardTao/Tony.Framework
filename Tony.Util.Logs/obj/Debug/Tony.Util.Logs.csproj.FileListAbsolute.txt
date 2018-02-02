@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\bin\Debug\Tony.Util.Logs.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\bin\Debug\Tony.Util.Logs.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\bin\Debug\log4net.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\obj\Debug\Tony.Util.Logs.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\obj\Debug\Tony.Util.Logs.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\obj\Debug\Tony.Util.Logs.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Logs\obj\Debug\Tony.Util.Logs.pdb

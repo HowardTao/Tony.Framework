@@ -1,0 +1,6 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\bin\Debug\Tony.CodeGenerator.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\bin\Debug\Tony.CodeGenerator.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\obj\Debug\Tony.CodeGenerator.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\obj\Debug\Tony.CodeGenerator.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\obj\Debug\Tony.CodeGenerator.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.CodeGenerator\obj\Debug\Tony.CodeGenerator.csprojResolveAssemblyReference.cache

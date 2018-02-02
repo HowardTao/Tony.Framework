@@ -1,0 +1,292 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Data", "Tony.Data\Tony.Data.csproj", "{29BBB60D-A536-41C6-9C68-E182D23898D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DataAccess 数据库核心层", "02 DataAccess 数据库核心层", "{F19C321C-04E4-4B8B-BD9D-58BE695AB09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Data.EF", "Tony.Data.EF\Tony.Data.EF.csproj", "{D5323990-C622-48EA-B7EF-4FA14429C228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础设施层", "01 Framework 基础设施层", "{FA314139-42E3-4264-8AA8-6D791A2AE014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Application 业务逻辑层", "03 Application 业务逻辑层", "{AD00CA77-8453-4921-8697-F8811A65AEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.Ioc", "Tony.Util.Ioc\Tony.Util.Ioc.csproj", "{AE53E25F-6F93-4481-B65C-78C0642C9C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util", "Tony.Util\Tony.Util.csproj", "{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Data.Repository", "Tony.Data.Repository\Tony.Data.Repository.csproj", "{5049BD6B-683A-4641-817C-BCD553AB6255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.WebControl", "Tony.Util.WebControl\Tony.Util.WebControl.csproj", "{C7DB1550-067C-4CCF-A7DC-710414D0F11A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Cache 应用缓存", "01 Cache 应用缓存", "{AED0E0C1-FF5D-42E1-9C6F-D4B29A73211E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Models 实体层", "02 Models 实体层", "{A39D0456-C42F-4283-BDBD-88C73AEAA8B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Entity", "Tony.Application.Entity\Tony.Application.Entity.csproj", "{D4A77116-CC67-4A91-9E42-7A4D3030905A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Mapping", "Tony.Application.Mapping\Tony.Application.Mapping.csproj", "{0CABECC5-8433-4D49-B2E1-E14450F4EA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.IService", "Tony.Application.IService\Tony.Application.IService.csproj", "{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Service", "Tony.Application.Service\Tony.Application.Service.csproj", "{52AB7CA7-629D-4CC4-B587-34021264EA00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Cache 数据缓存", "01 Cache 数据缓存", "{B164EF46-25E9-4706-B9E2-7ECA6AA81A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Util 实用工具", "02 Util 实用工具", "{B3B4E004-359E-4A74-8F6E-795CFDBC2D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.Extension", "Tony.Util.Extension\Tony.Util.Extension.csproj", "{25B5C3E6-8501-4EF8-822F-6D352C07F221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Application 界面应用层", "04 Application 界面应用层", "{064F95EC-BDA7-440C-9D6D-E1E5E3C31D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Code", "Tony.Application.Code\Tony.Application.Code.csproj", "{2F0A452F-2102-4739-B592-8E63B726DD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Web", "Tony.Application.Web\Tony.Application.Web.csproj", "{6F9195C7-9169-4759-9093-F3ED29F2C5DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Builder代码生成", "03 Builder代码生成", "{BDCE61CD-600B-43EA-B5D0-55287681455C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.FlowWork", "Tony.Util.FlowWork\Tony.Util.FlowWork.csproj", "{665D11A8-9902-41CB-BAA0-C4A1D0013E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.Offices", "Tony.Util.Offices\Tony.Util.Offices.csproj", "{6493623F-5220-40C8-B4B9-84B8E9A4F34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.SignaIR", "Tony.Util.SignaIR\Tony.Util.SignaIR.csproj", "{3A5B39FB-90B3-4D57-9869-87503275AA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.WebChat", "Tony.Util.WebChat\Tony.Util.WebChat.csproj", "{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Util.Logs", "Tony.Util.Logs\Tony.Util.Logs.csproj", "{1FAF30B5-E060-4C85-8807-598E5FD03DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.CodeGenerator", "Tony.CodeGenerator\Tony.CodeGenerator.csproj", "{68F915E1-D00F-4202-A489-CAC8E2FA95B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.CacheHelper", "Tony.CacheHelper\Tony.CacheHelper.csproj", "{9A50E8E4-123B-41B1-A8CA-F58564B91A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.Business", "Tony.Application.Business\Tony.Application.Business.csproj", "{B92895BB-7011-4122-80EB-1919DD3CA58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tony.Application.CacheHelper", "Tony.Application.CacheHelper\Tony.Application.CacheHelper.csproj", "{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BBB60D-A536-41C6-9C68-E182D23898D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BBB60D-A536-41C6-9C68-E182D23898D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BBB60D-A536-41C6-9C68-E182D23898D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BBB60D-A536-41C6-9C68-E182D23898D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5323990-C622-48EA-B7EF-4FA14429C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5323990-C622-48EA-B7EF-4FA14429C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5323990-C622-48EA-B7EF-4FA14429C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5323990-C622-48EA-B7EF-4FA14429C228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE53E25F-6F93-4481-B65C-78C0642C9C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE53E25F-6F93-4481-B65C-78C0642C9C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE53E25F-6F93-4481-B65C-78C0642C9C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE53E25F-6F93-4481-B65C-78C0642C9C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5049BD6B-683A-4641-817C-BCD553AB6255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5049BD6B-683A-4641-817C-BCD553AB6255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5049BD6B-683A-4641-817C-BCD553AB6255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5049BD6B-683A-4641-817C-BCD553AB6255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DB1550-067C-4CCF-A7DC-710414D0F11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DB1550-067C-4CCF-A7DC-710414D0F11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DB1550-067C-4CCF-A7DC-710414D0F11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DB1550-067C-4CCF-A7DC-710414D0F11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A77116-CC67-4A91-9E42-7A4D3030905A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A77116-CC67-4A91-9E42-7A4D3030905A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A77116-CC67-4A91-9E42-7A4D3030905A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A77116-CC67-4A91-9E42-7A4D3030905A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CABECC5-8433-4D49-B2E1-E14450F4EA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CABECC5-8433-4D49-B2E1-E14450F4EA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CABECC5-8433-4D49-B2E1-E14450F4EA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CABECC5-8433-4D49-B2E1-E14450F4EA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3A4FC5-930F-4648-88E3-1ABA4575CC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AB7CA7-629D-4CC4-B587-34021264EA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AB7CA7-629D-4CC4-B587-34021264EA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AB7CA7-629D-4CC4-B587-34021264EA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AB7CA7-629D-4CC4-B587-34021264EA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B5C3E6-8501-4EF8-822F-6D352C07F221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B5C3E6-8501-4EF8-822F-6D352C07F221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B5C3E6-8501-4EF8-822F-6D352C07F221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B5C3E6-8501-4EF8-822F-6D352C07F221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0A452F-2102-4739-B592-8E63B726DD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0A452F-2102-4739-B592-8E63B726DD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0A452F-2102-4739-B592-8E63B726DD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0A452F-2102-4739-B592-8E63B726DD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9195C7-9169-4759-9093-F3ED29F2C5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9195C7-9169-4759-9093-F3ED29F2C5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9195C7-9169-4759-9093-F3ED29F2C5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9195C7-9169-4759-9093-F3ED29F2C5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665D11A8-9902-41CB-BAA0-C4A1D0013E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665D11A8-9902-41CB-BAA0-C4A1D0013E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665D11A8-9902-41CB-BAA0-C4A1D0013E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665D11A8-9902-41CB-BAA0-C4A1D0013E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6493623F-5220-40C8-B4B9-84B8E9A4F34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6493623F-5220-40C8-B4B9-84B8E9A4F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6493623F-5220-40C8-B4B9-84B8E9A4F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6493623F-5220-40C8-B4B9-84B8E9A4F34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5B39FB-90B3-4D57-9869-87503275AA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5B39FB-90B3-4D57-9869-87503275AA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5B39FB-90B3-4D57-9869-87503275AA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5B39FB-90B3-4D57-9869-87503275AA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAF30B5-E060-4C85-8807-598E5FD03DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAF30B5-E060-4C85-8807-598E5FD03DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAF30B5-E060-4C85-8807-598E5FD03DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAF30B5-E060-4C85-8807-598E5FD03DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F915E1-D00F-4202-A489-CAC8E2FA95B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F915E1-D00F-4202-A489-CAC8E2FA95B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F915E1-D00F-4202-A489-CAC8E2FA95B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F915E1-D00F-4202-A489-CAC8E2FA95B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A50E8E4-123B-41B1-A8CA-F58564B91A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A50E8E4-123B-41B1-A8CA-F58564B91A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A50E8E4-123B-41B1-A8CA-F58564B91A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A50E8E4-123B-41B1-A8CA-F58564B91A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92895BB-7011-4122-80EB-1919DD3CA58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92895BB-7011-4122-80EB-1919DD3CA58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92895BB-7011-4122-80EB-1919DD3CA58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92895BB-7011-4122-80EB-1919DD3CA58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A03E772-6973-43BF-AEC5-DD7B0F8503B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29BBB60D-A536-41C6-9C68-E182D23898D5} = {F19C321C-04E4-4B8B-BD9D-58BE695AB09F}
+		{D5323990-C622-48EA-B7EF-4FA14429C228} = {F19C321C-04E4-4B8B-BD9D-58BE695AB09F}
+		{AE53E25F-6F93-4481-B65C-78C0642C9C9D} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{5049BD6B-683A-4641-817C-BCD553AB6255} = {F19C321C-04E4-4B8B-BD9D-58BE695AB09F}
+		{C7DB1550-067C-4CCF-A7DC-710414D0F11A} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{AED0E0C1-FF5D-42E1-9C6F-D4B29A73211E} = {AD00CA77-8453-4921-8697-F8811A65AEC6}
+		{A39D0456-C42F-4283-BDBD-88C73AEAA8B6} = {AD00CA77-8453-4921-8697-F8811A65AEC6}
+		{D4A77116-CC67-4A91-9E42-7A4D3030905A} = {A39D0456-C42F-4283-BDBD-88C73AEAA8B6}
+		{0CABECC5-8433-4D49-B2E1-E14450F4EA50} = {A39D0456-C42F-4283-BDBD-88C73AEAA8B6}
+		{4F3A4FC5-930F-4648-88E3-1ABA4575CC78} = {AD00CA77-8453-4921-8697-F8811A65AEC6}
+		{52AB7CA7-629D-4CC4-B587-34021264EA00} = {AD00CA77-8453-4921-8697-F8811A65AEC6}
+		{B164EF46-25E9-4706-B9E2-7ECA6AA81A36} = {FA314139-42E3-4264-8AA8-6D791A2AE014}
+		{B3B4E004-359E-4A74-8F6E-795CFDBC2D72} = {FA314139-42E3-4264-8AA8-6D791A2AE014}
+		{25B5C3E6-8501-4EF8-822F-6D352C07F221} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{2F0A452F-2102-4739-B592-8E63B726DD47} = {064F95EC-BDA7-440C-9D6D-E1E5E3C31D0B}
+		{6F9195C7-9169-4759-9093-F3ED29F2C5DF} = {064F95EC-BDA7-440C-9D6D-E1E5E3C31D0B}
+		{BDCE61CD-600B-43EA-B5D0-55287681455C} = {FA314139-42E3-4264-8AA8-6D791A2AE014}
+		{665D11A8-9902-41CB-BAA0-C4A1D0013E1B} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{6493623F-5220-40C8-B4B9-84B8E9A4F34C} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{3A5B39FB-90B3-4D57-9869-87503275AA20} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{BC1A5448-342C-40F0-9D58-BB2B0C2D8F8B} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{1FAF30B5-E060-4C85-8807-598E5FD03DB2} = {B3B4E004-359E-4A74-8F6E-795CFDBC2D72}
+		{68F915E1-D00F-4202-A489-CAC8E2FA95B7} = {BDCE61CD-600B-43EA-B5D0-55287681455C}
+		{9A50E8E4-123B-41B1-A8CA-F58564B91A52} = {B164EF46-25E9-4706-B9E2-7ECA6AA81A36}
+		{B92895BB-7011-4122-80EB-1919DD3CA58A} = {AD00CA77-8453-4921-8697-F8811A65AEC6}
+		{2A03E772-6973-43BF-AEC5-DD7B0F8503B6} = {AED0E0C1-FF5D-42E1-9C6F-D4B29A73211E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C532D0-426D-4E84-A9B7-76E9A5220D75}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 23
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tonytaohero.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tony.Data.EF\\Tony.Data.EF.csproj
+		SccProjectTopLevelParentUniqueName1 = Tony.Framework.sln
+		SccProjectName1 = Tony.Data.EF
+		SccLocalPath1 = Tony.Data.EF
+		SccProjectUniqueName2 = Tony.Data\\Tony.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Tony.Framework.sln
+		SccProjectName2 = Tony.Data
+		SccLocalPath2 = Tony.Data
+		SccProjectUniqueName3 = Tony.Util.Ioc\\Tony.Util.Ioc.csproj
+		SccProjectTopLevelParentUniqueName3 = Tony.Framework.sln
+		SccProjectName3 = Tony.Util.Ioc
+		SccLocalPath3 = Tony.Util.Ioc
+		SccProjectUniqueName4 = Tony.Util\\Tony.Util.csproj
+		SccProjectTopLevelParentUniqueName4 = Tony.Framework.sln
+		SccProjectName4 = Tony.Util
+		SccLocalPath4 = Tony.Util
+		SccProjectUniqueName5 = Tony.Data.Repository\\Tony.Data.Repository.csproj
+		SccProjectTopLevelParentUniqueName5 = Tony.Framework.sln
+		SccProjectName5 = Tony.Data.Repository
+		SccLocalPath5 = Tony.Data.Repository
+		SccProjectUniqueName6 = Tony.Util.WebControl\\Tony.Util.WebControl.csproj
+		SccProjectTopLevelParentUniqueName6 = Tony.Framework.sln
+		SccProjectName6 = Tony.Util.WebControl
+		SccLocalPath6 = Tony.Util.WebControl
+		SccProjectUniqueName7 = Tony.Application.Entity\\Tony.Application.Entity.csproj
+		SccProjectTopLevelParentUniqueName7 = Tony.Framework.sln
+		SccProjectName7 = Tony.Application.Entity
+		SccLocalPath7 = Tony.Application.Entity
+		SccProjectUniqueName8 = Tony.Application.Mapping\\Tony.Application.Mapping.csproj
+		SccProjectTopLevelParentUniqueName8 = Tony.Framework.sln
+		SccProjectName8 = Tony.Application.Mapping
+		SccLocalPath8 = Tony.Application.Mapping
+		SccProjectUniqueName9 = Tony.Application.IService\\Tony.Application.IService.csproj
+		SccProjectTopLevelParentUniqueName9 = Tony.Framework.sln
+		SccProjectName9 = Tony.Application.IService
+		SccLocalPath9 = Tony.Application.IService
+		SccProjectUniqueName10 = Tony.Application.Service\\Tony.Application.Service.csproj
+		SccProjectTopLevelParentUniqueName10 = Tony.Framework.sln
+		SccProjectName10 = Tony.Application.Service
+		SccLocalPath10 = Tony.Application.Service
+		SccProjectUniqueName11 = Tony.Util.Extension\\Tony.Util.Extension.csproj
+		SccProjectTopLevelParentUniqueName11 = Tony.Framework.sln
+		SccProjectName11 = Tony.Util.Extension
+		SccLocalPath11 = Tony.Util.Extension
+		SccProjectUniqueName12 = Tony.Application.Code\\Tony.Application.Code.csproj
+		SccProjectTopLevelParentUniqueName12 = Tony.Framework.sln
+		SccProjectName12 = Tony.Application.Code
+		SccLocalPath12 = Tony.Application.Code
+		SccProjectUniqueName13 = Tony.Application.Web\\Tony.Application.Web.csproj
+		SccProjectTopLevelParentUniqueName13 = Tony.Framework.sln
+		SccProjectName13 = Tony.Application.Web
+		SccLocalPath13 = Tony.Application.Web
+		SccProjectUniqueName14 = Tony.Util.FlowWork\\Tony.Util.FlowWork.csproj
+		SccProjectTopLevelParentUniqueName14 = Tony.Framework.sln
+		SccProjectName14 = Tony.Util.FlowWork
+		SccLocalPath14 = Tony.Util.FlowWork
+		SccProjectUniqueName15 = Tony.Util.Offices\\Tony.Util.Offices.csproj
+		SccProjectTopLevelParentUniqueName15 = Tony.Framework.sln
+		SccProjectName15 = Tony.Util.Offices
+		SccLocalPath15 = Tony.Util.Offices
+		SccProjectUniqueName16 = Tony.Util.SignaIR\\Tony.Util.SignaIR.csproj
+		SccProjectTopLevelParentUniqueName16 = Tony.Framework.sln
+		SccProjectName16 = Tony.Util.SignaIR
+		SccLocalPath16 = Tony.Util.SignaIR
+		SccProjectUniqueName17 = Tony.Util.WebChat\\Tony.Util.WebChat.csproj
+		SccProjectTopLevelParentUniqueName17 = Tony.Framework.sln
+		SccProjectName17 = Tony.Util.WebChat
+		SccLocalPath17 = Tony.Util.WebChat
+		SccProjectUniqueName18 = Tony.Util.Logs\\Tony.Util.Logs.csproj
+		SccProjectTopLevelParentUniqueName18 = Tony.Framework.sln
+		SccProjectName18 = Tony.Util.Logs
+		SccLocalPath18 = Tony.Util.Logs
+		SccProjectUniqueName19 = Tony.CodeGenerator\\Tony.CodeGenerator.csproj
+		SccProjectTopLevelParentUniqueName19 = Tony.Framework.sln
+		SccProjectName19 = Tony.CodeGenerator
+		SccLocalPath19 = Tony.CodeGenerator
+		SccProjectUniqueName20 = Tony.CacheHelper\\Tony.CacheHelper.csproj
+		SccProjectTopLevelParentUniqueName20 = Tony.Framework.sln
+		SccProjectName20 = Tony.CacheHelper
+		SccLocalPath20 = Tony.CacheHelper
+		SccProjectUniqueName21 = Tony.Application.Business\\Tony.Application.Business.csproj
+		SccProjectTopLevelParentUniqueName21 = Tony.Framework.sln
+		SccProjectName21 = Tony.Application.Business
+		SccLocalPath21 = Tony.Application.Business
+		SccProjectUniqueName22 = Tony.Application.CacheHelper\\Tony.Application.CacheHelper.csproj
+		SccProjectTopLevelParentUniqueName22 = Tony.Framework.sln
+		SccProjectName22 = Tony.Application.CacheHelper
+		SccLocalPath22 = Tony.Application.CacheHelper
+	EndGlobalSection
+EndGlobal

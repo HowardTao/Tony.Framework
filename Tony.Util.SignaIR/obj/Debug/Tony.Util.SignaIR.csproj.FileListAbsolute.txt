@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.SignaIR\bin\Debug\Tony.Util.SignaIR.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.SignaIR\bin\Debug\Tony.Util.SignaIR.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.SignaIR\obj\Debug\Tony.Util.SignaIR.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.SignaIR\obj\Debug\Tony.Util.SignaIR.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.SignaIR\obj\Debug\Tony.Util.SignaIR.pdb

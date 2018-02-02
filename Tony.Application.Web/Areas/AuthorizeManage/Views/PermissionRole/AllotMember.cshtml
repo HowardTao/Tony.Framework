@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "角色成员";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+<script>
+    var roleId = request("roleId");
+    $(function() {
+        InitialPage();
+        GetMember();
+        GetTree();
+    });
+
+    //初始化页面
+    function InitialPage() {
+        $("#layout").layout({
+            applyDemoStyles: true,
+            west__size: 160,
+            spacing_open: 0,
+            onresize: function() {
+                $(window).resize();
+            }
+        });
+        $(".center-Panel").height($(window).height() - 40);
+    }
+    //加载成员
+    function GetMember() {
+
+
+    }
+    //加载树
+    function GetTree() {
+        
+    }
+    //保存表格
+    function AcceptClick() {
+        
+    }
+</script>
+<div class="ui-layout" id="layout" style="width: 100%; height: 100%">
+    <div class="ui-layout-west">
+        <div class="west-Panel" style="margin: 0; border-top: none; border-bottom: none; border-left: none;">
+            <div id="itemTree"></div>
+        </div>
+    </div>
+    <div class="ui-layout-center">
+        <div class="treesearch">
+            <input id="txt_TreeKeyword" type="text" class="form-control" style="border-top: none;" placeholder="请输入要查询关键字" />
+            <span id="btn_TreeSearch" class="input-query" title="Search"><i class="fa fa-search"></i></span>
+        </div>
+        <div class="center-Panel" style="margin: 0px; border-right: none; border-left: none; border-bottom: none; background-color: #fff; overflow: auto; padding-bottom: 10px;">
+            <div class="gridPanel">
+            </div>
+        </div>
+    </div>
+</div>
+

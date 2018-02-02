@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Application.Entity.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Application.Entity.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Application.Code.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Util.Extension.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Util.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.CacheHelper.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Application.Code.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Util.Extension.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.Util.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Tony.CacheHelper.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\obj\Debug\Tony.Application.Entity.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\obj\Debug\Tony.Application.Entity.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\obj\Debug\Tony.Application.Entity.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Application.Entity\obj\Debug\Tony.Application.Entity.pdb

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F0A452F-2102-4739-B592-8E63B726DD47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tony.Application.Code</RootNamespace>
+    <AssemblyName>Tony.Application.Code</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorizeDataModel.cs" />
+    <Compile Include="AuthorizeExtensions.cs" />
+    <Compile Include="AuthorizeTypeEnum.cs" />
+    <Compile Include="CodeRuleEnum.cs" />
+    <Compile Include="LoginMode.cs" />
+    <Compile Include="OperationType.cs" />
+    <Compile Include="Operator\IOperatorProvider.cs" />
+    <Compile Include="Operator\Operator.cs" />
+    <Compile Include="Operator\OperatorProvider.cs" />
+    <Compile Include="PermissionMode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemInfo.cs" />
+    <Compile Include="VerifyCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tony.CacheHelper\Tony.CacheHelper.csproj">
+      <Project>{9A50E8E4-123B-41B1-A8CA-F58564B91A52}</Project>
+      <Name>Tony.CacheHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Util.Extension\Tony.Util.Extension.csproj">
+      <Project>{25B5C3E6-8501-4EF8-822F-6D352C07F221}</Project>
+      <Name>Tony.Util.Extension</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tony.Util\Tony.Util.csproj">
+      <Project>{289E52CB-4F0E-4ADB-ACDC-A58A41EC20DC}</Project>
+      <Name>Tony.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\bin\Debug\Tony.Util.WebControl.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\bin\Debug\Tony.Util.WebControl.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\bin\Debug\Tony.Util.Extension.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\bin\Debug\Tony.Util.Extension.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\obj\Debug\Tony.Util.WebControl.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\obj\Debug\Tony.Util.WebControl.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\obj\Debug\Tony.Util.WebControl.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebControl\obj\Debug\Tony.Util.WebControl.pdb

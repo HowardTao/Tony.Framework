@@ -1,0 +1,6 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\bin\Debug\Tony.Util.FlowWork.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\bin\Debug\Tony.Util.FlowWork.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\obj\Debug\Tony.Util.FlowWork.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\obj\Debug\Tony.Util.FlowWork.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\obj\Debug\Tony.Util.FlowWork.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.FlowWork\obj\Debug\Tony.Util.FlowWork.pdb

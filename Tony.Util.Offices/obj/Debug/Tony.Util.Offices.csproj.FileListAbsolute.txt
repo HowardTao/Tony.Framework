@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\Tony.Util.Offices.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\Tony.Util.Offices.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\NPOI.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\NPOI.OOXML.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\NPOI.OpenXml4Net.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\bin\Debug\NPOI.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\obj\Debug\Tony.Util.Offices.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\obj\Debug\Tony.Util.Offices.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\obj\Debug\Tony.Util.Offices.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Offices\obj\Debug\Tony.Util.Offices.pdb

@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebChat\bin\Debug\Tony.Util.WebChat.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebChat\bin\Debug\Tony.Util.WebChat.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebChat\obj\Debug\Tony.Util.WebChat.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebChat\obj\Debug\Tony.Util.WebChat.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.WebChat\obj\Debug\Tony.Util.WebChat.pdb

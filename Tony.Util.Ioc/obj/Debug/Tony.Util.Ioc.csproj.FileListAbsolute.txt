@@ -1,0 +1,15 @@
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Tony.Util.Ioc.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Tony.Util.Ioc.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\obj\Debug\Tony.Util.Ioc.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\obj\Debug\Tony.Util.Ioc.dll
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\obj\Debug\Tony.Util.Ioc.pdb
+D:\Documents\Visual Studio 2017\Project\Tony.Framework\Tony.Util.Ioc\obj\Debug\Tony.Util.Ioc.csprojResolveAssemblyReference.cache
