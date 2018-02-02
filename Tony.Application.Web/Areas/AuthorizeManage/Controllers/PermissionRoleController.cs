@@ -60,6 +60,7 @@ namespace Tony.Application.Web.Areas.AuthorizeManage.Controllers
         {
             var existMember = permissionBll.GetMemberList(roleId);
             var userData = userBll.GetTable();
+            return null;
         }
         #endregion
 

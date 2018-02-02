@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 using Tony.Application.Code;
 using Tony.Util;
 using Tony.Util.Extension;
@@ -27,11 +28,13 @@ namespace Tony.Application.Web
         {
             //登陆拦截是否忽略
             if(_customMode == LoginMode.Ignore) return;
+
             if (OperatorProvider.Provider.IsOverdue())
             {
                 //登陆已超时，请重新登陆
                 WebHelper.WriteCookie("tony_login_error","Overdue");
-                filterContext.Result = new RedirectResult("~/Login/Default");
+                //filterContext.Result = new RedirectResult("~/Login/Default");
+                filterContext.Result = GetRedirectSso(filterContext);
                 return;
             }
             var isOnLine = OperatorProvider.Provider.IsOnLine();
@@ -43,14 +46,26 @@ namespace Tony.Application.Web
                     //您的帐号已在其它地方登录,请重新登录
                     WebHelper.WriteCookie("tony_login_error", "OnLine");
                     //filterContext.Result = new RedirectResult("~/Login/Default");
-                    filterContext.Result = new RedirectResult("https://bpm.redsun.com.cn:19088/sso.aspx?");
+                    filterContext.Result = GetRedirectSso(filterContext);
                 }
             }
             else if (isOnLine == -1)
             {
                 //缓存已超时，请重新登陆
                 WebHelper.WriteCookie("tony_login_error", "-1");
+                filterContext.Result = GetRedirectSso(filterContext);
             }
+        }
+
+        private RedirectResult GetRedirectSso(AuthorizationContext filterContext)
+        {
+            var loginUrl = WebHelper.UrlEncode("http://localhost:60903/Login/Test");
+            var logoutUrl = WebHelper.UrlEncode("http://localhost:60903/Login/Test2");
+            var sid = filterContext.HttpContext.Request.AppRelativeCurrentExecutionFilePath;
+            var ssoUrl =
+                string.Format(
+                    $"https://bpm.redsun.com.cn:19088/sso.aspx?act=login&loged={loginUrl}&logout={logoutUrl}&sid={sid}");
+            return new RedirectResult(ssoUrl);
         }
     }
 }

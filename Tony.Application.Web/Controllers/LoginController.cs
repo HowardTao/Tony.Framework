@@ -141,8 +141,35 @@ namespace Tony.Application.Web.Controllers
 
         public ActionResult Test()
         {
-            var entity = new UserBll().CheckLogin("System","0000");
-            return Content("OK");
+            var token = Request.QueryString["token"];
+            //var isLogin = Request.QueryString["continue"];
+            var sid = WebHelper.UrlDecode(Request.QueryString["sid"]);
+            var strJson = WebHelper.HttpWebRequest("https://bpm.redsun.com.cn:19088/sso.aspx?act=check&type=json&tid=" +
+                                                  token);
+            var result = strJson.ToJObject();
+            var operators = new Operator
+            {
+                UserId = result["userid"].ToString(),
+                Code = result["userid"].ToString(),
+                Account = result["loginname"].ToString(),
+                UserName = result["name"].ToString(),
+                Password = result["userid"].ToString(),
+                Secretkey = result["userid"].ToString(),
+                CompanyId = result["companyid"].ToString(),
+                DepartmentId = result["departmentid2"].ToString(),
+                IpAddress = Net.Ip,
+                IpAddressName = IpLocation.GetLocation(Net.Ip),
+                //ObjectId = new PermissionBll().GetObjectStr(userEntity.UserId),
+                LogTime = DateTime.Now,
+                Token = DESEncrypt.Encrypt(Guid.NewGuid().ToString())
+            };
+            OperatorProvider.Provider.AddCurrent(operators);
+            return Redirect(sid);
+        }
+
+        public ActionResult Test2()
+        {
+            return null;
         }
         #endregion
     }
